@@ -1,0 +1,542 @@
+/*app.css*/
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@538&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 105%;
+    font-family: "Quicksand Medium", sans-serif;
+}
+
+p{
+    margin:0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+}
+@media (max-width: 760px){
+    #navbar li .text {
+        display: none;
+    }
+    #kobtdattenginx{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #form-1  {
+        width: 90%;
+        
+    }
+    #page #search .convert {
+        width: 100%;
+    }
+    #page #search .convert {
+        width: 76%;
+    }
+}
+@media (min-width: 761px){
+    #form-1 {
+        width: 41.6667%;
+    }
+    #page #search .convert {
+        width: 74%;
+    }
+    #kobtdattenginx{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+
+#container {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    color: #D3D5D9 ;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar li {
+    margin: 0px 0px 0px 15px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#logo .text {
+    font-size: 40px;
+    color: #c2fbfb;
+    cursor: pointer;
+}
+
+#navbar li:hover {
+    color: #fff;
+}
+
+#log_in .sign_up:hover,
+#log_in .sign_in:hover{
+    color: #fff;
+}
+
+#log_in .sign_up,
+#log_in .sign_in,
+.line {
+    line-height: 44px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px 15px 0px 0px;
+    color: #D3D5D9 ;
+}
+
+#log_in .line {
+    line-height: 44px;
+    font-size: 20px;
+}
+
+#navbar li .text {
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW */
+:root{
+    --background-color: #fffffe;
+    --headline: #094067;
+    --text: #5f6c7b;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Quicksand", sans-serif;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+}
+
+@media (min-width: 901px){
+    .search .header_search .input {
+        width: 72%;
+        min-width: 200px;
+    }   
+    
+    .search .header_search {
+        width: 50%;
+    }  
+}
+
+@media (max-width: 900px){
+    .search .header_search {
+        width: 70%;
+    }
+    .search .header_search .input {
+        width: 60%;
+    }
+}
+@media (max-width: 570px){
+    #page .frame {
+        margin: 0 30px;
+    }
+    #navbar li .text {
+        display: none;
+    }
+    #navbar li {
+        margin: 0px 5px;
+    }
+}
+
+@media (min-width: 570px){
+    #page .frame {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #navbar li {
+        margin: 0px 15px;
+    }
+}
+
+@media (max-width: 760px){
+    
+   
+
+    #kobtdattenginx{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #form-1  {
+        width: 90%;
+        
+    }
+    #page #search .convert {
+        width: 100%;
+    }
+    #page #search .convert {
+        width: 76%;
+    }
+    
+}
+@media (min-width: 761px){
+    #form-1 {
+        width: 41.6667%;
+    }
+    #page #search .convert {
+        width: 74%;
+    }
+    #kobtdattenginx{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+
+#header {
+    height: 44px;
+    /* position: fixed; */
+    top: 0;
+    padding: 20px 0px;;
+    left: 0;
+    right: 0;
+    box-sizing: content-box;
+    background: rgba(14, 29, 52, 0.9);
+}
+#container {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+}
+
+#end_nav {
+    display: flex;
+    align-items: center;
+}
+
+#navbar li {
+    
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#navbar li a:hover {
+    color: #ffffff;
+}
+
+#header #logo a{
+    text-decoration: none;
+}
+
+#header #logo .text {
+    font-size: 40px;
+    color: #c2fbfb;
+    cursor: pointer;
+}
+
+#language .icon,
+.dropdown .dropbtn,
+#navbar  li .icon {
+    font-size: 24px; 
+    margin: 10px;
+}
+
+#language .icon {
+    line-height: 44px;
+}
+
+#navbar li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#navbar li .text{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+}
+
+.dropdown {
+    line-height: 44px;
+    margin: 0 15px;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown:hover .dropbtn {
+    color: rgb(255, 255, 255);
+}
+
+.frame-dropdown {
+    position: absolute;
+    right: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 55px;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #dfdfdfbe;
+    border-radius: 10px;
+}
+
+#language {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --note-text-color: #494949c4;
+    --text-color: #222222
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Quicksand", sans-serif;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+}
+@media (max-width: 760px){
+    #navbar li .text {
+        display: none;
+    }
+    #kobtdattenginx{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #form-1  {
+        width: 90%;
+        
+    }
+    #page #search .convert {
+        width: 100%;
+    }
+    #page #search .convert {
+        width: 76%;
+    }
+}
+@media (min-width: 761px){
+    #form-1 {
+        width: 41.6667%;
+    }
+    #page #search .convert {
+        width: 74%;
+    }
+    #kobtdattenginx{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+
+#header {
+    height: 44px;
+    /* position: fixed; */
+    top: 0;
+    padding: 20px 0px;;
+    left: 0;
+    right: 0;
+    box-sizing: content-box;
+    background: rgba(14, 29, 52, 0.9);
+}
+#container {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+}
+
+#end_nav {
+    display: flex;
+}
+
+#navbar li {
+    margin: 0px 15px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#navbar li a:hover {
+    color: #ffffff;
+}
+
+#header #logo a{
+    text-decoration: none;
+}
+
+#header #logo .text {
+    font-size: 40px;
+    color: #c2fbfb;
+    cursor: pointer;
+}
+
+#language .icon,
+#logn_in .icon,
+#navbar  li .icon {
+    font-size: 24px; 
+    margin: 10px;
+}
+#language .icon {
+    line-height: 44px;
+}
+#navbar li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#navbar li .text{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+}
+
+#page {
+    padding: 30px 0 50px 0;
+}
+.theme {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 0;
+}
+
+h1{
+    font-size: 54px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    width: unset;
+}
+
+.line{
+    background-color: black;
+    height: 2px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.the-article-summary{
+    font-size: 18px; 
+    margin-bottom: 0; 
+    text-align: center; 
+    max-width: 500px; 
+    margin: 0 auto;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    color: var(--text-color);
+    margin: 0 auto 24px;
+    max-width: 600px;
+}
+
+.picture_active {
+    width: 100%;
+    max-width: 900px;
+    margin: 42px auto 10px;
+    float: none;
+}
+
+
+.pic .unveil {
+    width: 100%;
+    height: auto; 
+    border-radius: 30px;
+}
+
+h3 {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 30px;
+}
+ .pCaption_caption p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16x;
+    line-height: 1.66;
+    margin-left: 20px;
+    color: var(--note-text-color);
+    max-width: 100%;
+}
+
+
+

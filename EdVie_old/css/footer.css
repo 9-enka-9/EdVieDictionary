@@ -1,0 +1,72 @@
+/* end web */
+
+#endweb {
+    /* margin-top: 50vh; */
+    padding-top: 50px;
+    padding-bottom: 30px;
+    /* bottom:0; */
+    /* position: absolute; */
+}
+
+#contact_us {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#contact_us #information {
+    width: 41.66666667%;
+}
+
+#contact_us #information .name {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#contact_us #information .content{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin: 5px 0px;
+    
+}
+
+#contact_us #information .help{
+    font-size: 23px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#contact_us #information #hotline{
+    display: flex;
+}
+
+
+#information #hotline .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px ;
+    font-weight: 700;
+    border: 2px solid rgb(0 0 0 / 30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+#information #hotline .icon:hover{
+    border: 1px solid rgba(0, 0, 0, 0.753);
+    padding: 3px;
+}
+
+#endweb #design{
+    padding-top: 20px ;
+}
+#endweb #design .by {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+} 
